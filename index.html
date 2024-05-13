@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather app</title>
+</head>
+<body>
+    <div class="weather-app">
+    <header>
+   
+        <form class="search-form" id="search-form">
+        
+        <input type="search"  placeholder="Enter a city" class="search-form-input" id="search-form-input">
+        <input type="submit" value="Search" class="search-form-button" >
+    
+        </form>
+    </header>
+     <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city" id="city">San Francisco</h1>
+             <p class="weather-app-details">
+           <span id="time"> Tuesday 14:20,</span> <span id="description">scattered clouds </span>
+            <br>
+            humidity: <strong id="humidity">63%</strong> wind <strong id="wind-speed">2.58km/h</strong>
+            </p>
+         </div>
+
+        <div class="weather-app-temp-container">
+        <div class="weather-app-icon" id="icon">🌥</div>
+        <div class="weather-app-temp" id="temperature">12</div>
+        <div class="weather-app-unit">℃</div>
+        </div>
+       </div>
+
+        <div class="weather-forecast">
+            
+            <div class="weather-forecast-date">Tue </div>
+            <div class="weather-forecast-icon">  ☁ </div> 
+             <div class="weather-forecast-temperature">
+                <strong>19°</strong>
+             <div class="weather-forecast-temperature"> 12°</div>
+            </div>
+          </div>
+    
+            <div class="weather-forecast" >
+                <div class="weather-forecast-date">   Wed  </div>
+                <div  class="weather-forecast-icon">  ☁ </div> 
+                 <div class="weather-forecast-temperature">
+                    <strong>20°</strong>
+                    <div class="weather-forecast-temperature"> 14°</div> 
+            </div>
+            </div>
+             
+                <div class="weather-forecast">
+                    <div  class="weather-forecast-date">Thu   </div>
+                    <div  class="weather-forecast-icon">  ☁ </div> 
+                     <div class="weather-forecast-temperature">
+                        <strong>19°</strong>
+                         <div class="weather-forecast-temperature" > 15°</div> 
+                    </div>
+                </div>
+                
+                   
+                    <div class="weather-forecast">
+                        <div  class="weather-forecast-date"> Fri   </div>
+                        <div  class="weather-forecast-icon">  ☁ </div> 
+                         <div class="weather-forecast-temperature">
+                            <strong>18°</strong>
+                        <div class="weather-forecast-temperature"> 15°</div> 
+                    </div>
+                </div>
+                            
+                        <div class="weather-forecast">
+                           <div  class="weather-forecast-date">Sat   </div>
+                            <div  class="weather-forecast-icon">  ☁ </div> 
+                             <div class="weather-forecast-temperature">
+                                <strong>17°</strong>
+                             <div class="weather-forecast-temperature"> 15°</div>
+                        </div>
+                    </div>
+                            
+             
+    </div>
+
+    
+</main>
+
+    <footer>
+        Coded by <a href="https://github.com/luccia1">Lucy Esther</a> hosted on
+         <a href="https://github.com/luccia1/weather"> Github</a> and website hoisted on
+        <a href="https://app.netlify.com/teams/luccia1/overview">netflify</a>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
