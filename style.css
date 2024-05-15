@@ -64,6 +64,7 @@ strong{
 .weather-app-icon{
     font-size: 44px;
     margin-top: 20px;
+    
 
 }
 .weather-app-temp{
@@ -113,9 +114,9 @@ footer{
     border-top: 1px solid #f9f7fe ;
     
     padding:10px 0 0 0;
-    margin-top: -70px;
+    
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     color: rgba(0,0,0,0.5);
     
 }
